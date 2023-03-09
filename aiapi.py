@@ -21,7 +21,7 @@ def GetResponse(prompt:str):
                 )
 
     try:
-        answer = response['choices'][0]['message']['content'].replace('\n', '<br>') 
+        answer = response['choices'][0]['message']['content']
     except Exception as e:
         answer = f"Error: {e}"
     
