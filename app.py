@@ -10,7 +10,7 @@ def page_not_found(e):
   return render_template('404.html'), 404
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder = './dist', template_folder = './dist', static_url_path = '')
 app.config.from_object(config.config['development'])
 
 app.register_error_handler(404, page_not_found)
