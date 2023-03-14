@@ -4,3 +4,6 @@ keys.py
 
 # edit
 .vscode
+
+# log
+*.log

@@ -1,0 +1,123 @@
+{
+  // 页面title
+  title: "Personal Page - FLiteraryX",
+  // 社交链接
+  social: {
+    github: "https://github.com/SeanCho1996",
+    instagram: "https://instagram.com/zixiao_zhao?igshid=YmMyMTA2M2Y=",
+    zhihu: "https://www.zhihu.com/people/zhao-zi-xiao-60",
+  },
+  // banner页
+  banner: {
+    name: "赵子枭",
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "赵子枭",
+    desc: [
+      "图像算法工程师",
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "基本信息",
+        subtitle: "about me",
+        name:"赵子枭"
+      },
+      content: {
+        name: "赵子枭",
+        desc: [
+          "厚德求真，砺学笃行",
+          "薪火相传，电波永存"
+        ],
+        md: "1996年生于辽宁沈阳，现居江苏苏州，\
+        \n图像算法工程师，主攻深度学习，医学图像分割，\
+        \n宝可梦重度粉丝，守望先锋afk，P5R狂肝中，\
+        \n英语，法语，西班牙语",
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "主页": "https://github.com/SeanCho1996",
+        "Github": "https://github.com/SeanCho1996",
+        "知乎": "https://www.zhihu.com/people/zhao-zi-xiao-60",
+        "OCRID": "https://orcid.org/0000-0003-2808-4659"
+      },
+    },
+    // 履历
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "工作经验",
+        subtitle: "",
+      },
+      cards: [
+        {
+          title: "复睿（苏州）智能科技有限公司",
+          subtitle: "2023-02 至 今",
+          md: "<!--**<u>图像算法工程师</u>**-->\
+          \n\
+          \nMRI胎脑检测流程，智慧医疗计算中台",
+        },
+        {
+          title: "新加坡国立大学苏州研究院",
+          subtitle: "2020-10 至 2022-12",
+          md: "<!--**<u>助理研究员</u>**-->\
+          \n\
+          \n云端自动化深度学习平台Singa-auto"
+        },
+        {
+          title: "圣埃蒂安电信工程师学院",
+          subtitle: "2017-09 至 2020-09",
+          md: "**<u>工程师（硕士）</u>**\
+          \n\
+          \n<!--**专业**：图像与电子系统-->\
+          \n\
+          \nOpenCV, 图像处理, C++，深度学习",
+        },
+        {
+          title: "西安电子科技大学",
+          subtitle: "2014-09 至 2018-09",
+          md: "**<u>本科生</u>**\
+          \n\
+          \n<!--**专业**：集成电路设计与集成系统-->\
+          \n\
+          \n半导体物理，半导体器件物理，数字/模拟集成电路设计",
+        },
+      ],
+    },
+    // 博客页
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+      blog: "https://www.zhihu.com/people/zhao-zi-xiao-60/posts",
+      rss: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1618932035053068288",
+    },
+  ],
+}
